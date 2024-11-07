@@ -65,7 +65,7 @@ export default function ExperienceSection() {
   return (
     <div className='container'>
       <SectionHeader eyebrow="How My Life Goes" title="Exp./Edu" description="Discover how my experience and education come together." />
-      <div className='flex md:mt-20 mt-10 gap-20 mb-24'>
+      <div className='flex md:mt-20 mt-10 gap-20 mb-24 lg:flex-wrap flex-col'>
         <div data-aos="fade-up-right">
           <Card className="h-full p-0 flex flex-col md:col-span-2 lg:col-span-2">
             <CardHeader title="Experience" description="Discover My Experience through The World" className="px-6 py-6" />
@@ -83,7 +83,7 @@ export default function ExperienceSection() {
                     {experience.exp.map((skill, index) => (
                       <div key={index} className="p-[1px] bg-gradient-to-r from-slate-300 to-sky-400 rounded-lg w-fit">
                         <p
-                          className="bg-gray-800 px-3 py-2 rounded-md lg:text-base text-[12px] text-base font-semibold"
+                          className="bg-gray-800 px-3 py-2 rounded-md lg:text-base text-[11px] font-semibold"
                         >
                           {skill}
                         </p>
