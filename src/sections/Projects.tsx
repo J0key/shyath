@@ -42,7 +42,7 @@ const portfolioProjects = [
       { title: "Enhanced user experience by 70%" },
       { title: "Expanded customer reach by 75%" },
     ],
-    link: "#",
+    link: "https://portaldata.postel.go.id/login",
     button: "Not yet Published",
     image: SDPPI,
   },
