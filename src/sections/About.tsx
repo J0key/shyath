@@ -16,6 +16,7 @@ import ToolboxItems from "@/components/ToolboxItems";
 import gdsc from "@/assets/images/certif/gdscSolution.jpg";
 import bestTeam from "@/assets/images/certif/gdscBest.png";
 import dialogika from "@/assets/images/certif/dialogika.jpg";
+import forci from "@/assets/images/certif/4c.jpg";
 import ai4impact from "@/assets/images/certif/ai4impact.jpg";
 import gemastik from "@/assets/images/certif/gemastik.jpg";
 import graphicDesain from "@/assets/images/certif/graphicDesign.jpg";
@@ -97,6 +98,11 @@ const certificates = [
     title: "Finalist UX Design",
     category: "Being finalist on GEMASTIK XVII organized by PUSPRESNAS",
     image: gemastik,
+  },
+  {
+    title: "1s Winner UX Challenges",
+    category: "Being 1st Winner on 4C National Competition that held by Faculty of Computer Science, Universitas Brawijaya",
+    image: forci,
   },
   {
     title: "Best Design Teams",

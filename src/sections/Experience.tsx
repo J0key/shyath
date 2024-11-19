@@ -20,7 +20,7 @@ export const experiences = [
     name: "PT Generasi Muda Berkarya",
     tahun: "2024",
     src: HiColl,
-    exp: ['UI/UX Designer']
+    exp: ['UX Researcher']
   },
   {
     name: "PT Global Data Inspirasi",
