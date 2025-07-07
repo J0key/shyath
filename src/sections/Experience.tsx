@@ -8,6 +8,7 @@ import Dialogika from "@/assets/images/exp/dialogika.png";
 import Kopma from "@/assets/images/exp/kopma.png";
 import Smansa from "@/assets/images/exp/smansa.png";
 import UGM from "@/assets/images/exp/ugm.png";
+import Chickin from "@/assets/images/exp/chickinLogo.png";
 
 import React, { useEffect } from 'react';
 import Image from 'next/image';
@@ -17,16 +18,22 @@ import AOS from 'aos';
 
 export const experiences = [
   {
-    name: "PT Generasi Muda Berkarya",
-    tahun: "2024",
-    src: HiColl,
-    exp: ['UX Researcher']
+    name: "PT Sinergi Ketahanan Pangan",
+    tahun: "2025",
+    src: Chickin,
+    exp: ['Product Designer']
   },
   {
     name: "PT Global Data Inspirasi",
     tahun: "2024",
     src: Datains,
     exp: ['UI/UX Designer', 'System Analyst']
+  },
+  {
+    name: "PT Generasi Muda Berkarya",
+    tahun: "2024",
+    src: HiColl,
+    exp: ['UX Researcher']
   },
   {
     name: "Kopma UGM",

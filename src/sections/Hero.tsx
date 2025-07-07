@@ -82,7 +82,7 @@ export const HeroSection = () => {
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl md:text-5xl  text-center mt-8 tracking-wide">Hi, I&apos;m Shyra Athaya</h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-          As a Developer, System Analyst, and UI/UX Designer, I&apos;m skilled in creating user-focused digital solutions. She combines technical expertise with strong problem-solving and collaboration skills to deliver impactful products that align with business goals
+            As a Developer, System Analyst, and UI/UX Designer, I&apos;m skilled in creating user-focused digital solutions. She combines technical expertise with strong problem-solving and collaboration skills to deliver impactful products that align with business goals
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
@@ -90,10 +90,12 @@ export const HeroSection = () => {
             <span className="font-semibold">Explore My Work</span>
             <ArrowDown className='size-4 ' />
           </button>
-          <a href="https://www.linkedin.com/in/shyrath3104" target="_blank" >
+          <a href="https://www.linkedin.com/in/shyrath3104" target="_blank" rel="noopener noreferrer">
             <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
-              <span>👋</span>
-              <span className="font-semibold">Let`s Connect</span>
+              <span className="font-semibold">Let’s Connect</span>
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="#0A66C2" viewBox="0 0 24 24">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.327-.025-3.036-1.849-3.036-1.851 0-2.134 1.445-2.134 2.939v5.666h-3.554V9h3.414v1.561h.049c.476-.9 1.637-1.849 3.369-1.849 3.602 0 4.267 2.369 4.267 5.455v6.285zM5.337 7.433a2.062 2.062 0 110-4.124 2.062 2.062 0 010 4.124zM6.964 20.452H3.711V9h3.253v11.452z" />
+              </svg>
             </button>
           </a>
         </div>
