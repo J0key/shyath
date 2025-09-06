@@ -38,7 +38,7 @@ export const CompetitionSection = () =>  {
   return (
         <section className="pb-16 lg:py-24 -translate-y-[60px]" id="projects" >
       <div className="container" >
-        <SectionHeader eyebrow="Embarking Competition" title="Competitions" description="See how I transformed concepts into engaging digital experiences." />
+        <SectionHeader eyebrow="Embarking Competition" title="Competitions" description="See how I contribute through challenges" />
         <div className="flex flex-col md:mt-20 mt-10 gap-20" >
           {listCompetition.map((project , projectIndex) => (
             <Card key={project.title} className="px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:px-20 lg:pt-16 sticky" style={{ top:`calc(100px + ${projectIndex * 40}px)` }}>
