@@ -4,11 +4,10 @@ import CardHeader from "@/components/CardHeader";
 import Card from "@/components/Card";
 import Datains from "@/assets/images/exp/datains.png";
 import HiColl from "@/assets/images/exp/hicollLogo.png";
-import Dialogika from "@/assets/images/exp/dialogika.png";
-import Kopma from "@/assets/images/exp/kopma.png";
 import Smansa from "@/assets/images/exp/smansa.png";
 import UGM from "@/assets/images/exp/ugm.png";
 import Chickin from "@/assets/images/exp/chickinLogo.png";
+import Gaogao from "@/assets/images/exp/gaogao.png";
 
 import React, { useEffect } from 'react';
 import Image from 'next/image';
@@ -17,6 +16,12 @@ import AOS from 'aos';
 
 
 export const experiences = [
+  {
+    name: "GAOGAO Pte. Ltd",
+    tahun: "2025",
+    src: Gaogao,
+    exp: ['Software Engineer']
+  },
   {
     name: "PT Sinergi Ketahanan Pangan",
     tahun: "2025",
@@ -35,18 +40,7 @@ export const experiences = [
     src: HiColl,
     exp: ['UX Researcher']
   },
-  {
-    name: "Kopma UGM",
-    tahun: "2023",
-    src: Kopma,
-    exp: ['Designer']
-  },
-  {
-    name: "PT. Dialogika",
-    tahun: "2023",
-    src: Dialogika,
-    exp: ['Designer Specialist']
-  },
+
 ]
 
 export const educations = [
